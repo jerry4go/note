@@ -20,7 +20,7 @@ https://prompt-web-kohl.vercel.app/
 
 
 
-做了一个OCR的图片转TXT，不是很成功
+做了一个OCR的图片转TXT，不是很成功，识别率有问题
 
 做了一个skill可以在trae调用豆包电脑客户端
 
