@@ -1,9 +1,3 @@
-用Trae做了一个 图片转TXT的
-
-识别率还是很差
-
-
-
 在线图片 图片压缩
 
 https://image-compression-livid-xi.vercel.app/
@@ -23,6 +17,12 @@ https://watermark-remove-zeta.vercel.app/
 https://prompt-web-kohl.vercel.app/
 
 配置API，优化提示词
+
+
+
+做了一个OCR的图片转TXT，不是很成功
+
+做了一个skill可以在trae调用豆包电脑客户端
 
 
 
