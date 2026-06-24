@@ -18,13 +18,14 @@
 这个 Agent 的定位是**纯前置分诊，不做深度排障、不调用运维工具**，只负责告警清洗、聚合、分级，输出结构化故障组后再调度主排障 Agent。提示词严格约束边界，避免越权做深度推理。
 
 具体提示词看  告警预处理 Agent 完整系统提示词.txt  文件
-二、Dify 全链路串联配置分步指引
-==================
+
+
+## 二、Dify 全链路串联配置分步指引
 
 实现完整数据流：**监控系统 → 告警预处理 Agent → 主排障 Agent → 推送运维人员**，全程自动化，无需人工中转。
-第一步：创建告警预处理 Agent 应用
 
---------------------
+
+第一步：创建告警预处理 Agent 应用
 
 1. 进入 Dify 后台 → 【创建应用】→ 选择【Agent】类型，命名为「告警预处理 Agent」；
 2. 在【编排】→【系统提示词】中，粘贴上方完整提示词；
@@ -99,7 +100,8 @@
 在 Alertmanager 配置文件中，新增 webhook 接收器，指向预处理 Agent 的 API：
 
 yaml
-{}    receivers:
+
+ receivers:
       - name: 'agent-webhook'
         webhook_configs:
           - url: 'https://你的Dify域名/v1/chat-messages'
@@ -107,7 +109,7 @@ yaml
               authorization:
                 type: Bearer
                 credentials: '你的预处理Agent API密钥'
-            send_resolved: true}
+            send_resolved: true
 
 其他监控系统（Zabbix、Grafana）同理，在告警通知里新增 Webhook 通道，地址填 Dify 的 API 端点。
 
@@ -137,7 +139,6 @@ yaml
 
 * **输入**：
 
-plaintext
     【P2】192.168.1.20 CPU使用率96%
     【P2】192.168.1.20 CPU使用率97%
     【P2】192.168.1.20 CPU使用率95%
