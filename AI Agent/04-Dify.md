@@ -12,4 +12,6 @@ SRS
 
 openresty
 
+varnish
 
+oracle 11g RAC
