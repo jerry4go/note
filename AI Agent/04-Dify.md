@@ -14,4 +14,6 @@ openresty
 
 varnish
 
+Jenkins
+
 oracle 11g RAC
