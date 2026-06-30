@@ -9,3 +9,7 @@ graylog
 squid
 
 SRS
+
+openresty
+
+
