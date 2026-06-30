@@ -6,4 +6,6 @@ HAproxy
 
 graylog
 
+squid
 
+SRS
