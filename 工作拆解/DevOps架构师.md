@@ -23,4 +23,3 @@ AI工程落地经验（二选一即可）：
 路径B：开发过DevOps Agent（如基于LLM的故障诊断、自动运维脚本生成、ChatOps机器人）
 云原生基础：精通K8s（CKA认证优先）、Helm Chart开发、ArgoCD/GitOps工作流程
 
-K8S
