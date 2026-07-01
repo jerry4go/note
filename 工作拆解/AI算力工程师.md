@@ -16,3 +16,11 @@
 6、做事稳定、靠谱、能驻场、可长期稳定维护机房。
 
 
+
+关键词
+
+Mac mini M4
+
+Albnb、Distribute.ai等海外算力平台
+
+Apple Silicon算力部署
