@@ -24,3 +24,7 @@ Mac mini M4
 Albnb、Distribute.ai等海外算力平台
 
 Apple Silicon算力部署
+
+
+
+卖算力给海外算力平台
