@@ -244,12 +244,12 @@ docker run -d -p 8080:8080 linzeyi/hivision_idphotos python3 deploy_api.py
 
 ### 7.3 环境变量
 
-| 变量                            | 说明                                              |
-| ----------------------------- | ----------------------------------------------- |
+| 变量                            | 说明                  |
+| ----------------------------- | ------------------- |
 | `FACE_PLUS_API_KEY`           | Face++ 在线检测 API Key |
-| `FACE_PLUS_API_SECRET`        | Face++ 在线检测 Secret                              |
-| `RUN_MODE=beast`              | 野兽模式（模型常驻内存）                                    |
-| `DEFAULT_LANG=zh\|en\|ko\|ja` | Gradio 默认语言                                     |
+| `FACE_PLUS_API_SECRET`        | Face++ 在线检测 Secret  |
+| `RUN_MODE=beast`              | 野兽模式（模型常驻内存）        |
+| `DEFAULT_LANG=zh\|en\|ko\|ja` | Gradio 默认语言         |
 
 ---
 
